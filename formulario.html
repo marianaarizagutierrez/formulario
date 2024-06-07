@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"></a></li>
+                    <li><a href="formulario.html">formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><br>
+    <div>
+        <form action="controlador">
+            <div>
+                <label for="nombre">ingrese su nombre:</label><br>
+                <input type="text" id="nombre">
+            </div><br>
+
+            <div>
+                <label for="edad">ingrese su edad:</label><br>
+                <input type="number" id="edad">
+            </div><br>
+
+            <div>
+                <label for="email">ingrese su email</label><br>
+                <input type="email" id="email">
+            </div><br>
+
+            <div>
+                <label for="archivo">ingrese un archivo</label><br>
+                <input type="file" id="archivo">
+            </div><br>
+
+            <div>
+                <label for="">seleccione los grados de estudio aprobados:</label><br>
+                <label for="">basica primaria</label></label><input type="checkbox" id="primaria"><br>
+                <label for="">basica secundaria</label></label><input type="checkbox" id="secundaria"><br>
+                <label for="">educacion media</label><input type="checkbox" id="bachiller"><br>
+            </div><br>
+
+            <div>
+                <label for="">seleccione su genero</label><br>
+                <label for="hombre"><input type="radio" id="hombre" name="genero">masculino</label><br>
+                <label for="mujer"><input type="radio" id="mujer" name="genero">femenino</label><br>
+            </div><br>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
